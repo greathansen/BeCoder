@@ -42,4 +42,20 @@ ul
 	height: 2000px;
 }
 
+.banner {
+    z-index: 2;
+    background-color: #ff6a00;
+    font-size: 12pt;  
+    font-family: 'Segoe UI', Arial, sans-serif;  
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+	width: 60px;
+	height: 60px;
+    text-align:center;
+    line-height: 50px;
+    left: 200px;
+    top: 5px;
+}
+
 

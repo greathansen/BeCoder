@@ -12,16 +12,16 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/navigation.css">
         <script>
-                $(function(){
+            $(function(){
             
-                    $("#collapsibleContent").accordion({header:'h1',collapsible: true});
+                $("#collapsibleContent").accordion({header:'h1',collapsible: true});
             
-                });
+            });
             
             $(function() {  
-                var pull        = $('#pull');  
-                    menu        = $('nav ul');  
-                    menuHeight  = menu.height();  
+                var pull = $('#pull');  
+                    menu = $('nav ul');  
+                    menuHeight = menu.height();  
             
                 $(pull).on('click', function(e) {  
                     e.preventDefault();  
@@ -39,16 +39,20 @@
 
     </head>
     <body>
+        <!--<div class="banner">{Coders}</div>-->
         <nav id="navigationBar" class="clearfix">
+            
             <ul class="clearfix">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Coding Dojo</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">School</a></li>
                 <li><a href="#">Community</a></li>
                 <li><a href="#">Sign In</a></li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
             <a href="#" id="pull">Menu</a>
         </nav>
+        <!--
         <div class="content">
 
             <div class="collapsibleContentBody">
@@ -76,6 +80,6 @@
 
                 </div>
             </div>
-        </div>
+        </div>-->
     </body>
 </html>
