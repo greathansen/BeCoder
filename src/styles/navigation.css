@@ -14,7 +14,7 @@ nav{
 nav ul {  
     padding: 0;  
     margin: 0 auto;  
-    width: 600px;  
+    width: 800px;  
     height: 40px;  
 } 
 
@@ -26,7 +26,8 @@ nav li {
 nav a {  
     color: #fff;  
     display: inline-block;  
-    width: 100px;  
+    padding-left: 6px;
+    padding-right: 6px;
     text-align: center;  
     text-decoration: none;  
     line-height: 40px;  
